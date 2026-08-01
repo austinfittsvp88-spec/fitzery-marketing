@@ -50,7 +50,7 @@ def create_checkout_url(
     user_id: int,
     email: str,
     plan_name: str,
-    base_url: str = "http://localhost:8502",
+    base_url: str = "https://fitzery-marketing.streamlit.app",
 ) -> str:
     _configure_stripe()
     price_id = get_price_id(plan_name)
