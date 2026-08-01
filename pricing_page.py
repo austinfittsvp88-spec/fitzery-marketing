@@ -6,7 +6,7 @@ from stripe_checkout import (create_billing_portal_url,create_checkout_url,get_s
 
 PLANS = {
     "Starter": {
-        "price": "$29/month",
+        "price": "$59/month",
         "description": "For solo business owners getting started.",
         "features": [
             "Dashboard and CEO Advisor",
@@ -17,7 +17,7 @@ PLANS = {
         ],
     },
     "Growth": {
-        "price": "$59/month",
+        "price": "$99/month",
         "description": "For businesses actively building sales and marketing.",
         "features": [
             "Everything in Starter",
@@ -29,7 +29,7 @@ PLANS = {
         ],
     },
     "Pro": {
-        "price": "$99/month",
+        "price": "$199/month",
         "description": "For established businesses and growing teams.",
         "features": [
             "Everything in Growth",
