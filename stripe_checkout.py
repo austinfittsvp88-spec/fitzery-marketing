@@ -90,7 +90,7 @@ def create_checkout_url(
 
 def create_billing_portal_url(
     stripe_customer_id: str,
-    return_url: str = "http://localhost:8502",
+    return_url: str = "https://fitzery-marketing.streamlit.app",
 ) -> str:
     _configure_stripe()
 
